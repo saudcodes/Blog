@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: black;
+            font-family: sans-serif;
+
+            color: white;
+        }
+
+        h1 {
+            color: white;
+            font-size: 40px;
+            font-weight: 700;
+            text-transform: capitalize;
+            text-decoration: underline blue;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+
+        .red-text {
+          color: red;
+        }
+
+        .mainimg {
+            display: block;
+            border: solid;
+            border-radius: 14px;
+
+        }
+
+        .image-container {
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+        }
+
+        .bloghd {
+            color: white;
+            font-size: 30px;
+            text-transform: capitalize;
+            text-align: left;
+            text-decoration: underline yellow;
+        }
+
+        .divider {
+            border-top: 2px solid #bbb;
+            margin-top: 25px;
+            width: 80%;
+
+        }
+
+        .titles {
+            font-size: 20px;
+            font-family: Georgia;
+            font-style: italic;
+            text-decoration: underline;
+            text-align: start;
+            color: rgb(255, 225, 53)
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 500px;
+
+            color: white;
+        }
+
+        .links {
+
+        }
+
+        .pros-cons-container::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        .pros {
+          float: left;
+          width: 50%;
+        }
+
+        .cons {
+          float: left;
+          width: 50%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1 class="red-text">My Blog</h1>
+    <h2 class="heading1"> my Blog</h2>
+    <div class="image-container">
+        <h3 class="bloghd"> Getting Started with WordPress 101</h3>
+        <img class="mainimg" src="https://theme-fusion.com/wp-content/uploads/2013/09/wp_admin-800x500.jpg"
+        alt="Wordpress picture">
+    </div>
+
+
+    <hr class="divider">
+
+    <h2 class="titles">What is WordPress</h2>
+
+
+
+    <p class="red-text">
+        <a href="#">WordPress.org</a> is open source software you can use to create a beautiful website, blog, or app.
+        <br>
+        written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a
+        template system, referred to within WordPress as Themes.
+    </p>
+
+    <h2 class="titles"> Why Wordpress</h2>
+    <p class="paragraphs">
+        The best part about WordPress is that it's easy to use and flexible enough to make different types of websites.
+        That's the main reason why WordPress has grown so much in popularity. According to a recent survey, WordPress
+        powers 32.3% of all websites on the internet.
+    </p>
+
+
+    <h2 class="titles"> Prequistes </h2>
+    <ul>
+        <li>Domain And Hosting</li>
+        <li>PHP (Versión 7 or higher)</li>
+        <li>MySQL (5.6 or greater)</li>
+        <li>RAM: 512MB+</li>
+    </ul>
+
+    <div class="pros-cons-container">
+      <h2 class="titles"> Pros And Cons </h2>
+      <div class="pros">
+          <h3>Pros</h3>
+          <ul>
+            <li>Relatively less expensive website development</li>
+            <li>A wide variety of professional themes</li>
+            <li>WordPress sites are mobile-friendly</li>
+            <li>Frequent upgrades to your site's capabilities</li>
+          </ul>
+      </div>
+      <div class="cons">
+
+          <h3> Cons</h3>
+          <ul>
+              <li>Website Vulnerability</li>
+              <li>Poor SEO Ranking</li>
+              <li><strong>Frequent Theme and Plugin Updates.</strong></li>
+          </ul>
+      </div>
+    </div>
+    <h2 class="titles"> ALternatives to Wordpress </h2>
+    <h3 style="font-style: italic; font-size: 16px;"> Here are some of the Alternatives to WordPress:</h3>
+    <p class="paragraphs"><a class="links, paragraphs" style="color:violet;" href="#">Wix.com</a> - best all-around
+        website builder in the market today.</p>
+    <p class="paragraphs"><a class="links, paragraphs" style="color:violet;" href="#">Squarespace.com</a> - best for
+        design</p>
+    <p class="paragraphs"><a class="links, paragraphs" style="color:violet;" href="#">Shopify.com</a> - the best
+        all-around ecommerce website builde</p>
+
+
+
+
+</body>
+
+</html>
